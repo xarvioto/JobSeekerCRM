@@ -131,3 +131,7 @@ def user_templates_template_id(template_id):
         return f'delete template with id: {template_id}'
     else:
         return f'show content of template with id: {template_id}'
+
+
+if __name__ == '__main__':
+    app.run()
